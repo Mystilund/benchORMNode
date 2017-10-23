@@ -1,0 +1,13 @@
+{
+  "name": "bench-orm-node",
+  "version": "0.0.1",
+  "description": "Test ORM Node",
+  "author": "Lund",
+  "devDependencies": {
+    "sequelize": "4.16.0",
+    "js-yaml": "3.10.0",
+    "knex": "0.13.0",
+    "bookshelf": "0.10.4",
+    "mysql2": "1.4.2"
+  }
+}
