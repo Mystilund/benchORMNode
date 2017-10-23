@@ -1,0 +1,3 @@
+- [Sequelize](https://github.com/FlorianDewulf/benchORMNode/tree/master/Sequelize)
+- [Bookshelf](https://github.com/FlorianDewulf/benchORMNode/tree/master/Bookshelf)
+- [node-orm2](https://github.com/FlorianDewulf/benchORMNode/tree/master/node-orm2)
