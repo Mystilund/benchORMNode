@@ -20,7 +20,6 @@ Comme beaucoup de choses sont abstraites par la librairie, cet ORM est moins ver
 
 ---
 
-Ces statistiques sont à joindre avec Knex qui est la base SQL de cet ORM :
 - NPM : 721k téléchargements en un mois
 - Github : 11600+ stars
 - 614 contributeurs

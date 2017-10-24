@@ -5,7 +5,7 @@ Node-ORM partait très bien, le système pour mettre en place la connexion étai
 Là où ça se complique, c'est qu'il n'y a quasi aucune doc.
 Tout ce qu'on a c'est le [Readme](https://github.com/dresende/node-orm2) et le [wiki github](https://github.com/dresende/node-orm2/wiki).
 Aucune définition exacte des méthodes d'un objet, j'ai été obligé de print les méthodes pour savoir quoi appeler.
-En plus, les fonctions ne sont pas logiques. Quand on utilise une fonction `set`, on s'attend à ce qu'elle retourne l'objet pour la chainer avec un save après par exemple. Et bien ce n'est pas le cas...
+En plus, les fonctions ne sont pas logiques. Quand on utilise une fonction `set`, on s'attend à ce qu'elle retourne l'objet pour la chainer avec un save après par exemple. Et bien ce n'est pas le cas... D'ailleurs la fonction set ne semble pas être un assignement de masse (pas dans la "doc" donc je ne sais pas ce que ça fait)
 
 Pour finir, la lib n'utilise pas les promesses natives mais les promesses [Bluebird](http://bluebirdjs.com/docs/api-reference.html) ce qui ajoute une dépendance inutile
 
@@ -32,7 +32,6 @@ C'est en quelque sorte des "computed methods" (les devs Vue connaissent ;) ;).
 
 ---
 
-Ces statistiques sont à joindre avec Knex qui est la base SQL de cet ORM :
 - NPM : 6500+ téléchargements en un mois
 - Github : 2600+ stars
 - 55 contributeurs

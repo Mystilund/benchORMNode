@@ -5,11 +5,14 @@ let User = require('./models/User.js')
 // Create an user and edit it right after
 async function createAndUpdate(ormUser, _user) {
   let user = await ormUser.model.createAsync(_user)
-  user.set({
-    name: 'newName'
-  })
-  let updatedUser = await user.saveAsync()
-  return updatedUser
+  user.name = 'newName'
+  try {
+    let updatedUser = await user.saveAsync()
+    return updatedUser
+  } catch (e) {
+    console.log(e)
+    return user
+  }
 }
 
 getConfig.parseConfig('./config.yml').then((config) => {
