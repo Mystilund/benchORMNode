@@ -3,11 +3,13 @@
   "version": "0.0.1",
   "description": "Test ORM Node",
   "author": "Lund",
-  "devDependencies": {
-    "sequelize": "4.16.0",
+  "dependencies": {
+    "bookshelf": "0.10.4",
     "js-yaml": "3.10.0",
     "knex": "0.13.0",
-    "bookshelf": "0.10.4",
-    "mysql2": "1.4.2"
+    "mysql": "^2.15.0",
+    "mysql2": "1.4.2",
+    "orm": "^4.0.1",
+    "sequelize": "4.16.0"
   }
 }
