@@ -9,17 +9,17 @@ Le classement que je ferais en terme d'avis général
 
 ##### Si on se fiche d'avoir une boite noire et qu'on veut pisser du code
 
-1) TypeORM
-2) Sequelize
-3) Bookshelf
-4) Node-orm2
+1. TypeORM
+2. Sequelize
+3. Bookshelf
+4. Node-orm2
 
 ##### Si on veut plus facilement gérer les choses 
 
-1) TypeORM
-2) Bookshelf
-3) Sequelize
-4) Node-orm2
+1. TypeORM
+2. Bookshelf
+3. Sequelize
+4. Node-orm2
 
 ---
 
